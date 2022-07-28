@@ -14,36 +14,36 @@ const GeneralInfo = () => {
                                 <Table bordered >
                                     <tbody>
                                         <tr>
-                                            <td>Foundation Year</td>
-                                            <td>lorem ipsum</td>
+                                            <td>Beginning Year</td>
+                                            <td>2022</td>
                                         </tr>
                                         <tr>
                                             <td>Licence</td>
-                                            <td>lorem ipsum</td>
+                                            <td>NA</td>
                                         </tr>
                                         <tr>
-                                            <td>First deposit bonus</td>
-                                            <td>lorem ipsum</td>
+                                            <td>First Deposit Bonus</td>
+                                            <td>NA</td>
                                         </tr>
                                         <tr>
-                                            <td>Deposit</td>
-                                            <td>lorem ipsum</td>
+                                            <td>Deposit Funds</td>
+                                            <td>Skrill, NETELLER, Local Bank-In</td>
                                         </tr>
                                         <tr>
-                                            <td>Withdraw money</td>
-                                            <td>lorem ipsum</td>
+                                            <td>Withdraw Funds</td>
+                                            <td>Envoy, Skrill, NETELLER, Local Bank-In</td>
                                         </tr>
                                         <tr>
-                                            <td>Social networks</td>
-                                            <td>lorem ipsum</td>
+                                            <td>Social Media Channels</td>
+                                            <td>Facebook, Twitter, Instagram, Linkedin</td>
                                         </tr>
                                         <tr>
-                                            <td>mobile application</td>
-                                            <td>lorem ipsum</td>
+                                            <td>Mobile Application</td>
+                                            <td>iPhone, Android</td>
                                         </tr>
                                         <tr>
-                                            <td>customer support</td>
-                                            <td>lorem ipsum</td>
+                                            <td>customer Support</td>
+                                            <td>Live support, email</td>
                                         </tr>
                                     </tbody>
                                 </Table>

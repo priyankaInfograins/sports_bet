@@ -45,5 +45,22 @@
                 }
             }
         }
+        .nav-pills{
+            margin-top: 25px;
+            .nav-item{
+                border: 1px solid #787575;
+                margin-top: 15px;
+                border-radius: 10px;
+                    .nav-link{
+                        color: #fff;
+                    }
+            }
+        }
     }
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #10367f;
+    border-radius: 10px;
+   
 }

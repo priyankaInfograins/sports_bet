@@ -17,7 +17,19 @@ const Header = () => {
                                     <a className="nav-link active" aria-current="page" href="#">ABOUT US</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">SPORT BETTING <span><BiChevronDown/></span></a>
+                                    <a className="nav-link sport_dropdown" href="#">SPORT BETTING <span><BiChevronDown/></span></a>
+                                    {/* <div className="dropdown_menu">
+                                        <ul>
+                                            <li><a href="/">Cricket</a></li>
+                                            <li><a href="/">ipl</a></li>
+                                            <li><a href="/">tennis</a></li>
+                                            <li><a href="/">football</a></li>
+                                            <li><a href="/">esports</a></li>
+                                            <li><a href="/">table tannis</a></li>
+                                            <li><a href="/">basketball</a></li>
+                                            <li><a href="/">boxing</a></li>
+                                        </ul>
+                                    </div> */}
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">CONTACT US</a>

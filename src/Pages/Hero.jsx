@@ -9,11 +9,12 @@ const Hero = () => {
                         <Col lg={8}>
                             <div className="hero_content">
                                 <div className="offer">offer</div>
-                                <div className="hero_title">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br></br> Illo animi nobis eligendi quaerat iure obcaecati,</div>
-                                <div className="hero_login_btn">
-                                    <a href="/" className='login_link'>Login</a>
+                                <div className="hero_title">LET'S MAKE YOUR FIRST INVESTMENT NOW</div>
+                                <div className="hero_subTitle">TRY WITH BONUS AS GIFT</div>
+                                <div className="hero_login_btn mt-5">
+                                    <a href="https://www.12bet.com/" target="_blank" className='login_link'>Login</a>
                                 </div>
-                                <div className="hero_subTitle">Lorem - ipsum dolor, sit amet consectetur</div>
+                               
                             </div>
                         </Col>
                         {/* <Col lg={3}>
