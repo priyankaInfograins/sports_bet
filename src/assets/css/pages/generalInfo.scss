@@ -1,0 +1,32 @@
+.info_section{
+    height: 60vh;
+    width: 100%;
+    background-image: url("https://pixner.net/bitbetio/main/assets/images/amazing-features-bg.png");
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+.info_title{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+        .info_table{
+            background: #0943a0ba;
+            padding: 50px;
+            border-radius: 20px;
+                table{
+                    color: #fff;
+                     tbody{
+                        tr{
+                            &:hover{
+                                background-color: #0e102e;
+                            }
+                            td{
+                                padding: 10px;
+                                font-weight: 500;
+                            }
+                        }
+                     }
+                }
+        }
+ }

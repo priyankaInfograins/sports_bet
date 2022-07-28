@@ -1,0 +1,49 @@
+.faq_section {
+    .faq_content {
+        .faq_para{
+            color: #fff;
+            padding: 0px 50px;
+        }
+        .faq_title {
+            text-align: center;
+            font-size: 23px;
+            font-weight: 500;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        .accordion {
+            margin-top: 25px;
+            .accordion-item {
+                margin: 15px 0px;
+                border-radius: 0px;
+                border: none;
+
+                .accordion-header {
+                    .left_border {
+                        height: 55px;
+                        width: 7px;
+                        background-color: #fc4f1f;
+                    }
+
+                    span {
+                        padding-left: 15px;
+                    }
+
+                    .accordion-button {
+                        border-radius: 0px;
+                        background: #0d3169;
+                        color: #fff;
+                        box-shadow: 0px 0px 5px 0px #010306a8;
+                        font-weight: 500;
+                        padding: 0px 15px 0px 0px;
+
+                        &::after {
+                            background-image: url("../../images/arrow.png");
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

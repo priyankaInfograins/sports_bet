@@ -1,0 +1,37 @@
+.playBet_section{
+    // background-color: #09316b;
+    background-color: #0b001b;
+    padding: 100px 50px;
+    color: #fff;
+        .content{
+            p{
+               font-size: 16px;
+               padding: 0px 20px;
+            }
+            .play_btn{
+                a{
+                    color: #fff !important;
+                    // background:  #fb4c01;
+                    background-color: #ffa031;
+                    border: 3px;
+                    margin: 100px auto;
+                    padding: 10px 30px;
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    max-width: 50%;
+                    font-size: 24px;
+                    font-weight: 600;
+                    border-radius: 4px;
+                    text-decoration: none;
+                    position: relative;
+                    box-shadow: 0 0 0 0 #ffa031;
+                    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+
+                    @keyframes pulse{
+                        to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}
+                          }
+                }
+            }
+        }
+}

@@ -1,0 +1,120 @@
+.footer {
+    background-color: #0e102e;
+    color: #fff;
+    padding: 50px;
+
+    .logo {
+        font-size: 2rem;
+        color: #ffa031;
+        font-size: 2rem;
+        line-height: 0.6;
+        font-weight: 700;
+        margin-left: 25px;
+        padding: 10px;
+
+        .span1 {
+            color: #fff;
+        }
+
+        .span2 {
+            color: #fff;
+            margin-left: 57px;
+        }
+
+        .span3 {
+            font-size: 16px;
+            // margin-left: 57px;
+        }
+    }
+
+    .useful_links {
+        margin-left: 50px;
+        ul {
+            h4 {
+                margin-left: 5px;
+            }
+
+            li {
+                list-style: none;
+                line-height: 2;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 15px;
+                    transition: 0.5s ease-in;
+
+                    &:hover {
+                        color: #ffa031;
+                        padding-left: 10px;
+                        transition: 0.5s ease-in;
+                    }
+                }
+
+                svg {
+                    font-size: 20px;
+                    margin-top: -3px;
+                }
+            }
+        }
+    }
+
+    .opening_hours {
+        margin-left: 50px;
+        ul {
+            h4 {
+                margin-left: 5px;
+
+            }
+
+            li {
+                list-style: none;
+                line-height: 2;
+                margin-left: 6px;
+
+                svg {
+                    font-size: 20px;
+                    margin-top: -3px;
+                }
+            }
+        }
+    }
+
+    .social_links {
+        margin-left: 50px;
+        ul {
+            display: flex;
+            gap: 15px;
+            margin-left: 2px;
+
+            li {
+                list-style: none;
+
+                a {
+                    color: #fff;
+                    padding: 6px 9px;
+
+                    &:hover {
+                        background: #0d6efd;
+                        padding: 6px 9px;
+                        border-radius: 50%;
+                            svg{
+                                margin-top: -4px;
+                            }
+                      
+                    }
+                }
+            }
+        }
+    }
+
+}
+.bottom_footer{
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+    
+     p{
+        margin-bottom: 0rem;
+     }
+}
