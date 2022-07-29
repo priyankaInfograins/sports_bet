@@ -26,12 +26,18 @@
             // margin-left: 57px;
         }
     }
-
+    p{
+        @media screen and (max-width:767px){
+            width: 100% !important;
+        }
+    }
     .useful_links {
         margin-left: 50px;
+        
         ul {
             h4 {
                 margin-left: 5px;
+                color: #ffa042;
             }
 
             li {
@@ -57,14 +63,18 @@
                 }
             }
         }
+        @media screen and (max-width:767px){
+            margin-left: 0px; 
+        }
     }
 
     .opening_hours {
         margin-left: 50px;
+        
         ul {
             h4 {
                 margin-left: 5px;
-
+                color: #ffa042;
             }
 
             li {
@@ -77,6 +87,9 @@
                     margin-top: -3px;
                 }
             }
+        }
+        @media screen and (max-width:767px){
+            margin-left: 0px; 
         }
     }
 
@@ -106,6 +119,9 @@
                 }
             }
         }
+        @media screen and (max-width:767px){
+            margin-left: 0px; 
+        }
     }
 
 }
@@ -118,3 +134,4 @@
         margin-bottom: 0rem;
      }
 }
+

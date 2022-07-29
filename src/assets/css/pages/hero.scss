@@ -1,7 +1,7 @@
 .hero_section {
     width: 100%;
-    height: 55vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://www.nerdly.co.uk/wp-content/uploads/2020/04/roulette-casino.jpg");
+    // height: 55vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -27,6 +27,7 @@
 
         .hero_login_btn {
             margin-top: 30px;
+            margin-bottom: 30px;
 
             .login_link {
                 background-color: #ffa031;
@@ -38,6 +39,7 @@
                 border-radius: 4px;
                 text-transform: uppercase;
                 transition: 0.3s ease-in;
+                box-shadow: -4.828px -4.828px 12px 0px rgb(255 200 39 / 40%), 3px 5px 15px 0px rgb(255 82 1 / 20%);
 
                 &:hover {
                     background-color: #fff;

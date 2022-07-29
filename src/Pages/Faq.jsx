@@ -35,7 +35,7 @@ const Faq = () => {
                                                     <Nav.Link eventKey="second">My Account</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
-                                                    <Nav.Link eventKey="third">Deposite</Nav.Link>
+                                                    <Nav.Link eventKey="third">Deposit</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
                                                     <Nav.Link eventKey="fourth">Withdrawal</Nav.Link>
@@ -44,7 +44,7 @@ const Faq = () => {
                                                     <Nav.Link eventKey="fifth">Forget your ID or password?</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
-                                                    <Nav.Link eventKey="sixth">Price Formate</Nav.Link>
+                                                    <Nav.Link eventKey="sixth">Price Format</Nav.Link>
                                                 </Nav.Item>
                                             </Nav>
                                         </Col>
@@ -73,11 +73,11 @@ const Faq = () => {
                                                         <Accordion.Item eventKey="1">
                                                             <Accordion.Header><div className='left_border'></div><span>How do I open an account?</span></Accordion.Header>
                                                             <Accordion.Body>
-                                                                <p>Opening your account with 12BET.com is simple and will only take a few minutes of your time.</p>
+                                                                <p>Opening your account with  is simple and will only take a few minutes of your time.</p>
                                                                 <strong>STEP 1</strong>
                                                                 <p>On the home page, click on the <span className='text-info'>"Sign up"</span> button in the top right-hand corner of the page. This will take you to the registration page.</p>
                                                                 <strong>STEP 2</strong>
-                                                                <p>You will also be asked to read and accept the 12BET.com Terms & Conditions and Rules & Regulations, confirm that you are at least 21 years of age and enter the required personal and contact information.</p>
+                                                                <p>You will also be asked to read and accept the  Terms & Conditions and Rules & Regulations, confirm that you are at least 21 years of age and enter the required personal and contact information.</p>
                                                                 <strong>STEP 3</strong>
                                                                 <p>Once your registration is completed, you may immediately login, deposit and then start to place bets.</p>
                                                             </Accordion.Body>
@@ -93,7 +93,7 @@ const Faq = () => {
                                                         <Accordion.Item eventKey="3">
                                                             <Accordion.Header><div className='left_border'></div><span>Are there any charges whenever I deposit or withdraw funds from my account?</span></Accordion.Header>
                                                             <Accordion.Body>
-                                                                <p>As our valued customer we will always strive to keep banking free of charge for you. You will not be charged by us for any deposits into or withdrawals out of your 12BET.com account - unless we specifically alert you in advance that the particular method you have requested carries an excess charge.</p>
+                                                                <p>As our valued customer we will always strive to keep banking free of charge for you. You will not be charged by us for any deposits into or withdrawals out of your  account - unless we specifically alert you in advance that the particular method you have requested carries an excess charge.</p>
                                                             </Accordion.Body>
                                                         </Accordion.Item>
 
@@ -192,7 +192,7 @@ const Faq = () => {
                                                             <Accordion.Header><div className='left_border'></div><span>How do I deposit via Skrill?</span></Accordion.Header>
                                                             <Accordion.Body>
                                                                 <strong>STEP 1</strong>
-                                                                <p>You can use Skrill to transfer funds to your 12BET.com account if you are holding USD, EUR or GBP account.</p>
+                                                                <p>You can use Skrill to transfer funds to your  account if you are holding USD, EUR or GBP account.</p>
                                                                 <strong>STEP 2</strong>
                                                                 <p>If you do not have a Skrill account, please follow these steps to register:</p>
                                                                 <ol>
@@ -208,7 +208,7 @@ const Faq = () => {
                                                             <Accordion.Header><div className='left_border'></div><span>How do I deposit via NETELLER?</span></Accordion.Header>
                                                             <Accordion.Body>
                                                                 <strong>STEP 1</strong>
-                                                                <p>You can use NETELLER to transfer funds to your 12BET.com account if you are holding INR, USD, EUR or GBP 12BET.com account.</p>
+                                                                <p>You can use NETELLER to transfer funds to your  account if you are holding INR, USD, EUR or GBP account.</p>
                                                                 <strong>STEP 2</strong>
                                                                 <p>If you do not have a NETELLER account, please follow these steps to register:</p>
                                                                 <ol>
@@ -218,16 +218,16 @@ const Faq = () => {
                                                                     <li>Account registration is instant, you can make a deposit after opening an account successfully.</li>
                                                                 </ol>
                                                                 <strong>STEP 3</strong>
-                                                                <p>Select NETELLER from the Deposit button, input the amount you wish to transfer to your 12BET.com account, your 12-digit NETELLER account number and your assigned secure ID. The amount transferred will immediately be credited to your 12BET.com account.</p>
+                                                                <p>Select NETELLER from the Deposit button, input the amount you wish to transfer to your  account, your 12-digit NETELLER account number and your assigned secure ID. The amount transferred will immediately be credited to your  account.</p>
                                                             </Accordion.Body>
                                                         </Accordion.Item>
 
                                                         <Accordion.Item eventKey="3">
                                                             <Accordion.Header><div className='left_border'></div><span>How do I deposit via Local Bank-In?</span></Accordion.Header>
                                                             <Accordion.Body>
-                                                                Local Bank-In is available to 12BET.com members with RMB / VND / IDR / THB / MYR / KRW / INR account.
+                                                                <p>Local Bank-In is available to  members with RMB / VND / IDR / THB / MYR / KRW / INR account.</p>
                                                                 <strong>STEP 1</strong>
-                                                                <p>Register on www.12BET.com with your preferred currency as INR and contact live chat or support@gmail.com and provide your username to get our latest banking details and instructions.</p>
+                                                                <p>Register on  with your preferred currency as INR and contact live chat or support@gmail.com and provide your username to get our latest banking details and instructions.</p>
                                                                 <strong>STEP 2</strong>
                                                                 <p>Kindly visit your bank and make a deposit to the bank account obtained from Live Chat.
                                                                     *Cash on counter and IMPS transfers are instant.
@@ -235,9 +235,9 @@ const Faq = () => {
                                                                     *Interbank transfer- within 5 to 24 hours.
                                                                 </p>
                                                                 <p>We highly recommend you to use cash on counter or Online transfer for instant deposit.</p>
-                                                                <p>Note: Please DO NOT indicate "12BET" as reference no./ remarks in your online bank acct when transferring funds to us and be reminded NOT to use 3rd party account.</p>
+                                                                <p>Note: Please DO NOT indicate  as reference no./ remarks in your online bank acct when transferring funds to us and be reminded NOT to use 3rd party account.</p>
                                                                 <strong>STEP 3</strong>
-                                                                <p>Login to your 12BET account and click on banking and the fill out the form under Deposit tab with requested details. Also upload the deposit slip or send us the screenshot of online transaction.</p>
+                                                                <p>Login to your account and click on banking and the fill out the form under Deposit tab with requested details. Also upload the deposit slip or send us the screenshot of online transaction.</p>
                                                                 <p>NEFT Banking hours are between (Monday - Friday) 8:00am – 6:30pm, Saturday 8:00am –12:30pm. The rest of banking hour’s transaction will be credited for the next working day (Except Sunday).</p>
                                                                 <p>* For any assistance you may contact our live chat or request a call back from our Hindi Speaking Representative</p>
                                                             </Accordion.Body>
@@ -260,7 +260,7 @@ const Faq = () => {
                                                         <Accordion.Item eventKey="0">
                                                             <Accordion.Header><div className='left_border'></div><span>How do I withdraw funds from my  account?</span></Accordion.Header>
                                                             <Accordion.Body>
-                                                                <p>At 12BET.com, we adhere to a strict professional conduct in processing payment transactions with our customers. In order to protect our customers from fraudulent situations, we will need to obtain necessary information required in accordance with our Withdrawal Policy.</p>
+                                                                <p>At  we adhere to a strict professional conduct in processing payment transactions with our customers. In order to protect our customers from fraudulent situations, we will need to obtain necessary information required in accordance with our Withdrawal Policy.</p>
                                                             </Accordion.Body>
                                                         </Accordion.Item>
 
@@ -280,7 +280,7 @@ const Faq = () => {
                                                         <Accordion.Item eventKey="2">
                                                             <Accordion.Header><div className='left_border'></div><span>How do I withdraw via local bank transfer?</span></Accordion.Header>
                                                             <Accordion.Body>
-                                                            Withdrawal via local bank transfer is available to 12BET.com members with RMB / VND / IDR / THB / MYR / KRW / INR account.
+                                                            Withdrawal via local bank transfer is available to  members with RMB / VND / IDR / THB / MYR / KRW / INR account.<br></br>
                                                             <strong>STEP 1</strong>
                                                             <p>Click on 'Banking' and click on 'Withdrawal' tab.</p>
                                                             <strong>STEP 2</strong>
@@ -293,7 +293,7 @@ const Faq = () => {
                                                             <Accordion.Header><div className='left_border'></div><span>How do I withdraw via Skrill?</span></Accordion.Header>
                                                             <Accordion.Body>
                                                             <strong>STEP 1</strong>
-                                                            <p>If you have deposited funds to your 12BET.com account via Skrill you will also be able to withdraw funds via Skrill. You will not be charged for withdrawals via Skrill. Withdrawals via Skrill are available to 12BET.com customers with USD, EUR or GBP account.</p>
+                                                            <p>If you have deposited funds to your  account via Skrill you will also be able to withdraw funds via Skrill. You will not be charged for withdrawals via Skrill. Withdrawals via Skrill are available to  customers with USD, EUR or GBP account.</p>
                                                            
                                                             <strong>STEP 2</strong>
                                                             <p>Select Skrill under the Withdrawal button. Input the amount you intend to withdraw and your Skrill Email, then click the "Request Payout" button.</p>
@@ -305,7 +305,7 @@ const Faq = () => {
                                                             <Accordion.Header><div className='left_border'></div><span>How do I withdraw via NETELLER?</span></Accordion.Header>
                                                             <Accordion.Body>
                                                             <strong>STEP 1</strong>
-                                                            <p>If you have deposited funds to your account via NETELLER you will also be able to withdraw funds via NETELLER. You will not be charged for withdrawals via NETELLER. Withdrawals via NETELLER are available to 12BET.com customers with INR, USD, EUR or GBP account.</p>
+                                                            <p>If you have deposited funds to your account via NETELLER you will also be able to withdraw funds via NETELLER. You will not be charged for withdrawals via NETELLER. Withdrawals via NETELLER are available to  customers with INR, USD, EUR or GBP account.</p>
                                                            
                                                             <strong>STEP 2</strong>
                                                             <p>Select NETELLER under the Withdrawal button. Input the amount you intend to withdraw and your NETELLER account ID, then click the "Request Payout" button.</p>

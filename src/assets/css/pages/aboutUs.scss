@@ -1,0 +1,139 @@
+.about_section {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pond5.com/green-grass-playground-and-stadium-footage-143768121_iconl.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0px;
+
+    .title {
+        color: #fff;
+        font-size: 2.2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        span {
+            color: #ffa031;
+        }
+    }
+
+    .para {
+        color: #fff;
+        margin-top: 15px;
+    }
+}
+
+.about_content {
+    margin: 100px 0px;
+    color: #fff;
+
+    .img1 {
+        img {
+            width: 97%;
+            height: 300px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .img2 {
+        img {
+            width: 300px;
+            height: 200px;
+            margin: 0px 5px;
+        }
+    }
+
+    .about_box {
+        .head {
+            color: #ffa031;
+            font-size: 18px;
+            padding: 10px 0px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            line-height: 1.5;
+        }
+
+        .para {
+            line-height: 1.7;
+        }
+
+        .about_btn {
+            .play_btn {
+                background-color: #ffa031;
+                color: #fff;
+                font-size: 17px;
+                font-weight: 600;
+                border: none;
+                margin-top: 30px;
+                padding: 8px 40px;
+                border-radius: 4px;
+                text-transform: uppercase;
+                transition: 0.3s ease-in;
+
+                &:hover {
+                    background-color: #fff;
+                    color: #ffa031;
+                    transition: 0.3s ease-in;
+                }
+            }
+        }
+    }
+}
+
+.why_choose_section {
+    background-color: #0d0517;
+    padding: 100px 0px;
+    color: #fff;
+
+    .left {
+        .head {
+            font-size: 2.5rem;
+            text-transform: capitalize;
+            line-height: 1.2;
+            margin-bottom: 11px;
+        }
+
+        .para {
+            font-size: 17px;
+            margin-bottom: 15px;
+            width: 80%;
+            line-height: 1.7;
+            color: #ccc;
+        }
+    }
+
+    .right {
+        .box1 {
+            margin-bottom: 50px;
+            .icon{
+                width: 60px;
+                height: 60px;
+                border: 6px solid orange;
+                border-radius: 50%;
+                background: linear-gradient(0deg, #ff9c19 40%, #ffdd2d 110%);
+                box-shadow: -4.828px -4.828px 12px 0px rgb(255 200 39 / 40%), 3px 5px 15px 0px rgb(255 82 1 / 20%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 7px;
+                    svg{
+                        font-size: 1.5rem;
+                        color: #dee2e6;
+                    }
+                
+            }
+            .head {
+                margin-bottom: 7px;
+                font-size: 26px;
+            }
+            .para{
+                color: rgba(255, 255, 255, 0.8);
+                line-height: 1.7;
+                font-size: 17px;
+            }
+        }
+    }
+}

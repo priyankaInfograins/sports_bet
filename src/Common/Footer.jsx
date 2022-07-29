@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="footer">
                 <Container fluid>
                     <Row>
-                        <Col lg={4}>
+                        <Col lg={4} md={4}>
                             <div className="footer_logo">
                                 <div className="logo">
                                     <span className='span1'>123</span>LOGO <br></br><span className='span2'>.</span><span className='span3'>COM</span>
@@ -16,7 +16,7 @@ const Footer = () => {
                                 <p className='w-75 mt-3'>Lorem epsum dollar sit amet lorem epsum dollar sit amet Lorem epsum dollar sit amet lorem epsum dollar sit amet</p>
                             </div>
                         </Col>
-                        <Col lg={4}>
+                        <Col lg={4} md={4}>
                             <div className="useful_links">
                                 <ul>
                                     <h4>Useful Links</h4>
@@ -25,7 +25,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={4}>
+                        <Col lg={4} md={4}>
                             <div className="opening_hours">
                                 <ul>
                                     <h4>Opening Hours</h4>
