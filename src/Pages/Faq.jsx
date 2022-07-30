@@ -4,7 +4,7 @@ import { Container, Row, Col, Accordion, Nav, Tab } from 'react-bootstrap';
 const Faq = () => {
     return (
         <>
-            <div className="faq_section py-5">
+            <div className="faq_section py-5" id='faq'> 
                 <Container>
                     <Row>
                         <Col lg={12}>

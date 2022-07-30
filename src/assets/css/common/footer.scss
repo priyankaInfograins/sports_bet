@@ -1,11 +1,11 @@
 .footer {
-    background-color: #0e102e;
+    background-color: #000000;
     color: #fff;
     padding: 50px;
 
     .logo {
         font-size: 2rem;
-        color: #ffa031;
+        color: #9d1bed;
         font-size: 2rem;
         line-height: 0.6;
         font-weight: 700;
@@ -36,8 +36,20 @@
         
         ul {
             h4 {
+                font-family: 'Ubuntu', sans-serif;
                 margin-left: 5px;
-                color: #ffa042;
+                margin-bottom: 20px;
+                color: #fff;
+                position: relative;
+                &::after {
+                    position: absolute;
+                    content: '';
+                    background-color: #9d1bed;
+                    height: 3px;
+                    top: 130%;
+                    left: 0px;
+                    width: 70px;
+                }
             }
 
             li {
@@ -51,8 +63,8 @@
                     transition: 0.5s ease-in;
 
                     &:hover {
-                        color: #ffa031;
-                        padding-left: 10px;
+                        color: #9d1bed;
+                        padding-left: 6px;
                         transition: 0.5s ease-in;
                     }
                 }
@@ -73,8 +85,20 @@
         
         ul {
             h4 {
+                font-family: 'Ubuntu', sans-serif;
                 margin-left: 5px;
-                color: #ffa042;
+                margin-bottom: 20px;
+                color: #fff;
+                position: relative;
+                &::after {
+                    position: absolute;
+                    content: '';
+                    background-color: #9d1bed;
+                    height: 3px;
+                    top: 130%;
+                    left: 0px;
+                    width: 70px;
+                }
             }
 
             li {
@@ -108,7 +132,7 @@
                     padding: 6px 9px;
 
                     &:hover {
-                        background: #0d6efd;
+                        background: #5900cd;
                         padding: 6px 9px;
                         border-radius: 50%;
                             svg{
@@ -126,9 +150,11 @@
 
 }
 .bottom_footer{
-    padding: 25px;
+    padding: 12px;
     text-align: center;
     color: #fff;
+    background-color:#161515;
+    font-size: 14px;
     
      p{
         margin-bottom: 0rem;

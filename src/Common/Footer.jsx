@@ -11,9 +11,9 @@ const Footer = () => {
                         <Col lg={4} md={4}>
                             <div className="footer_logo">
                                 <div className="logo">
-                                    <span className='span1'>123</span>LOGO <br></br><span className='span2'>.</span><span className='span3'>COM</span>
+                                    <span className='span1'>123</span>LOGO
                                 </div>
-                                <p className='w-75 mt-3'>Lorem epsum dollar sit amet lorem epsum dollar sit amet Lorem epsum dollar sit amet lorem epsum dollar sit amet</p>
+                                <p className='w-50 mt-3'>Lorem epsum dollar sit amet lorem epsum dollar sit amet Lorem epsum dollar sit amet lorem epsum dollar sit amet <br></br>Lorem epsum dollar sit amet lorem epsum dollar sit</p>
                             </div>
                         </Col>
                         <Col lg={4} md={4}>
@@ -22,6 +22,9 @@ const Footer = () => {
                                     <h4>Useful Links</h4>
                                     <li><MdOutlineKeyboardArrowRight/><a href="/">About Us</a></li>
                                     <li><MdOutlineKeyboardArrowRight/><a href="/">Contact Us</a></li>
+                                    <li><MdOutlineKeyboardArrowRight/><a href="#faq">FAQs</a></li>
+                                    <li><MdOutlineKeyboardArrowRight/><a href="/">Player List</a></li>
+                                    <li><MdOutlineKeyboardArrowRight/><a href="/">Featured Matches</a></li>
                                 </ul>
                             </div>
                         </Col>

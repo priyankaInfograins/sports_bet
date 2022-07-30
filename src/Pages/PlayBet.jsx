@@ -7,12 +7,12 @@ const PlayBet = () => {
             <div className="playBet_section">
                 <Container fluid>
                     <Row>
-                        <Col lg={5} md={12}>
+                        <Col lg={6} md={12}>
                             <div className="img_div">
-                                <img src={img} alt="" className='img-fluid' />
+                                <img src="https://template.viserlab.com/casinous/demo/assets/images/banner/thumb.png" alt="" className='img-fluid' />
                             </div>
                         </Col>
-                        <Col lg={7} md={12}>
+                        <Col lg={6} md={12}>
                             <div className="content">
                                 <p><span>A reliable website, calculated bets, and quick withdrawals</span><br></br><br></br>
 

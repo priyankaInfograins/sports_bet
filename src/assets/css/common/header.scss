@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Sans:wght@200&family=Lora:ital@1&family=Satisfy&family=Ubuntu:ital,wght@0,300;0,500;1,400&display=swap');
 
-body {
-    background-color: #0b001b !important;
-    font-family: 'Ubuntu', sans-serif;
-}
+
+
 
 .header_section {
     .navbar {
         // height: 72px;
         clear: both;
-        background-color: #05061d;
+        background-color: #000000;
         font-family: Arial, Helvetica, sans-serif;
-        border-bottom: 1px solid #072543;
+        border-bottom: 1px solid #000000;
+        padding: 20px 0px;
 
         .navbar-brand {
-            color: #ffa031;
+            color: #9d1bed;
             font-size: 2rem;
             line-height: 0.6;
             font-weight: 700;
@@ -35,9 +33,11 @@ body {
                 // margin-left: 57px;
             }
         }
-        .navbar-toggler-icon{
+
+        .navbar-toggler-icon {
             background-image: url("../../images/navicon.png");
         }
+
         .navbar-nav {
             margin-right: 60px;
 
@@ -56,27 +56,56 @@ body {
                     }
 
                     &:hover {
-                        color: #ffa031;
+                        color: #9d1bed;
                         transition: 0.5s ease-in;
                     }
                 }
 
-               
+                .dropdown_menu {
+                    display: none;
+                    margin-top: -3px;
+                    padding: 0;
+                    // right: 12%;
+                    width: 160px;
+                    position: absolute;
+                    background: rgb(2 3 35);
+                    z-index: 99;
+                    transform: translate(0, 20px);
+                    transition: all 0.6s ease-out;
+                    box-shadow: 0px 0px 10px 0px #051749;
 
-                // .dropdown_menu {
-                //     visibility: hidden;
-                //     opacity: 0;
-                //     margin: 0;
-                //     padding: 0;
-                //     width: 170px;
-                //     position: absolute;
-                //     left: 0px;
-                //     background: #fff;
-                //     z-index: 99;
-                //     transform: translate(0, 20px);
-                //     transition: all 0.2s ease-out;
-                // }
-               
+                    ul {
+                        border-top: 1px solid #9d1bed;
+                        padding: 15px 20px 15px 30px;
+
+                        li {
+                            list-style: none;
+                            padding: 2px 0px;
+
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                                text-transform: uppercase;
+                                font-size: 14px;
+                                font-weight: 600;
+
+                                &:hover {
+                                    color: #ffa031;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                
+                    &:hover .dropdown_menu {
+                           display: block;
+                           transform: translate(0,0);
+                           transition: all 0.6s ease-out;
+                        }
+                    
+                
+
             }
         }
     }

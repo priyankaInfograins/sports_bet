@@ -8,7 +8,7 @@ const Header = () => {
 
                 <nav className="navbar navbar-expand-lg ">
                     <div className="container-fluid">
-                        <Link className="navbar-brand" to="/"><span className='span1'>123</span>LOGO <br></br><span className='span2'>.</span><span className='span3'>COM</span></Link>
+                        <Link className="navbar-brand" to="/"><span className='span1'>123</span>LOGO</Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -17,9 +17,9 @@ const Header = () => {
                                 <li className="nav-item">
                                     <Link className="nav-link active" aria-current="page" to="/about_us">ABOUT US</Link>
                                 </li>
-                                <li className="nav-item">
-                                    <a className="nav-link sport_dropdown" href="#">SPORT BETTING <span><BiChevronDown/></span></a>
-                                    {/* <div className="dropdown_menu">
+                                <li className="nav-item " id='sport_dropdown'>
+                                    <a className="nav-link " href="#">SPORT BETTING <span><BiChevronDown/></span></a>
+                                    <div className="dropdown_menu">
                                         <ul>
                                             <li><a href="/">Cricket</a></li>
                                             <li><a href="/">ipl</a></li>
@@ -30,7 +30,7 @@ const Header = () => {
                                             <li><a href="/">basketball</a></li>
                                             <li><a href="/">boxing</a></li>
                                         </ul>
-                                    </div> */}
+                                    </div>
                                 </li>
                                 <li className="nav-item">
                                     <Link to="/contact_us" className="nav-link">CONTACT US</Link>

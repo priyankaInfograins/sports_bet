@@ -3,12 +3,12 @@ import { Container,Row, Col,Table } from 'react-bootstrap';
 const GeneralInfo = () => {
     return(
         <>
-            <div className="info_section py-5">
+            <div className="info_section ">
                 <Container>
                     <Row>
-                        {/* <Col lg={12}>
-                            <div className="info_title">Title Text Here</div>
-                        </Col> */}
+                        <Col lg={12}>
+                            <div className="info_title">General information</div>
+                        </Col>
                         <Col lg={12}>
                             <div className="info_table">
                                 <Table bordered >

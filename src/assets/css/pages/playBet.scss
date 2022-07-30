@@ -1,6 +1,8 @@
 .playBet_section{
     // background-color: #09316b;
-    background-color: #0b001b;
+    background-color: #030043;
+    background-image: url("../../images/bg.png");
+    background-position: center;
     padding: 100px 50px;
     color: #fff;
         .img_div{
@@ -12,20 +14,26 @@
         .content{
             p{
                font-size: 16px;
-               padding: 0px 20px;
+               padding: 100px 100px 0px 100px;
                 span{
                     font-weight: 700;
-                    font-size: 20px;
-                    color: #ffa042;
+                    font-size: 2.6rem;
+                    color: #ffffff;
                     text-transform: uppercase;
+                    font-family: 'Ubuntu', sans-serif;
                     
+                }
+                @media screen and (max-width:767px){
+                    padding:0px;
+                    span{
+                        font-size: 2rem;
+                    }
                 }
             }
             .play_btn{
                 a{
-                    color: #fff !important;
-                    // background:  #fb4c01;
-                    background-color: #ffa031;
+                    color: #000 !important;
+                    background-color: #ffc400;
                     border: 3px;
                     margin: 100px auto;
                     padding: 10px 30px;
@@ -34,7 +42,7 @@
                     width: 100%;
                     max-width: 50%;
                     font-size: 22px;
-                    font-weight: 600;
+                    font-weight: 700;
                     border-radius: 4px;
                     text-transform: uppercase;
                     text-decoration: none;
