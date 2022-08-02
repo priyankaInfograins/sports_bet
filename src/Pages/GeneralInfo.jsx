@@ -7,6 +7,9 @@ const GeneralInfo = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
+                            <p className='para'>Our betting platform offers a huge selection of sports to choose from. Bet on Cricket, Football, Badminton, Tennis, Basketball, Kabaddi and many more.
+                                <br></br>XYZ is not only about traditional sports. We also cover e-sports events considering the evolution happening in that.
+                            </p>
                             <div className="info_title">General information</div>
                         </Col>
                         <Col lg={12}>

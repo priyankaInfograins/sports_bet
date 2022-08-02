@@ -1,8 +1,15 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import {MdOutlineWatchLater, MdOutlineKeyboardArrowRight} from 'react-icons/md';
-import {FaFacebookF,FaTwitter,FaLinkedinIn,FaInstagram} from 'react-icons/fa'
+import {FaFacebookF,FaTwitter,FaLinkedinIn,FaInstagram} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+      
     return (
         <>
             <div className="footer">
@@ -20,8 +27,8 @@ const Footer = () => {
                             <div className="useful_links">
                                 <ul>
                                     <h4>Useful Links</h4>
-                                    <li><MdOutlineKeyboardArrowRight/><a href="/">About Us</a></li>
-                                    <li><MdOutlineKeyboardArrowRight/><a href="/">Contact Us</a></li>
+                                    <li><MdOutlineKeyboardArrowRight/><Link to="/about_us">About Us</Link></li>
+                                    <li><MdOutlineKeyboardArrowRight/><Link to="/contact_us">Contact Us</Link></li>
                                     <li><MdOutlineKeyboardArrowRight/><a href="#faq">FAQs</a></li>
                                     <li><MdOutlineKeyboardArrowRight/><a href="/">Player List</a></li>
                                     <li><MdOutlineKeyboardArrowRight/><a href="/">Featured Matches</a></li>

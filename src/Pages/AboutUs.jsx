@@ -14,7 +14,8 @@ const AboutUs = () => {
                     </Row>
                 </Container>
             </div>
-            <div className="about_content">
+           <div className="about_banner">
+           <div className="about_content">
                 <Container>
                     <Row>
                         <Col lg={6}>
@@ -92,6 +93,7 @@ const AboutUs = () => {
                 </Row>
                 </Container>
             </div>
+           </div>
         </>
     )
 }

@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       
-      <BrowserRouter basename='/sports_bet/'>
+      <BrowserRouter basename='/sports_bet2/'>
       <Header />
         <Routes>
           <Route path="/" element={<Main/>}></Route>
