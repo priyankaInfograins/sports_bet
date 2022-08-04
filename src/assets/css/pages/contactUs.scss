@@ -117,6 +117,8 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 50%;
+               
+                animation: ripple 1s linear infinite;
 
                 &:hover {
                     border: 2px solid #fff;
@@ -125,6 +127,18 @@
                         color: #ffc400;
                     }
                 }
+                @keyframes ripple {
+                    0% {
+                      box-shadow: 0 0 0 0 rgba(#ffc400, 0.3),
+                                  0 0 0 10px rgba(#ffc400, 0.3),
+                                 
+                    }
+                    100% {
+                      box-shadow: 0 0 0 10px rgba(#ffc400, 0.3),
+                                  0 0 0 1em rgba(#ffc400, 0.3),
+                               
+                    }
+                  }
             }
 
         }

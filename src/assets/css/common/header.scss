@@ -62,7 +62,7 @@
                 }
 
                 .dropdown_menu {
-                    display: none;
+                    opacity: 0;
                     margin-top: -3px;
                     padding: 0;
                     // right: 12%;
@@ -70,8 +70,8 @@
                     position: absolute;
                     background: rgb(2 3 35);
                     z-index: 99;
-                    transform: translate(0, 20px);
-                    transition: all 0.6s ease-out;
+                    transform: translate(0, 10px);
+                    transition: all 0.3s ease-out;
                     box-shadow: 0px 0px 10px 0px #051749;
 
                     ul {
@@ -90,7 +90,7 @@
                                 font-weight: 600;
 
                                 &:hover {
-                                    color: #ffa031;
+                                    color: #9d1bed;
                                 }
                             }
                         }
@@ -99,9 +99,9 @@
 
                 
                     &:hover .dropdown_menu {
-                           display: block;
+                           opacity: 1;
                            transform: translate(0,0);
-                           transition: all 0.6s ease-out;
+                           transition: all 0.3s ease-out;
                         }
                     
                 
